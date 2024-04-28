@@ -67,6 +67,9 @@ body {
   margin-bottom: 12px;
   line-height: 36px;
 }
+.title:hover{
+    color: var(--Yellow);
+}
 .desc {
   color: var(--Grey);
   font-family: "FigtreeSemi";
