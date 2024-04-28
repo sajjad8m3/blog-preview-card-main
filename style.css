@@ -66,9 +66,10 @@ body {
   font-size: 24px;
   margin-bottom: 12px;
   line-height: 36px;
+  cursor: pointer;
 }
-.title:hover{
-    color: var(--Yellow);
+.title:hover {
+  color: var(--Yellow);
 }
 .desc {
   color: var(--Grey);
@@ -99,10 +100,33 @@ body {
   margin-left: 12px;
 }
 .attribution {
-    margin-top: 30px;
+  margin-top: 30px;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 375px) {
+  .category {
+    font-size: 12px;
+    width: 73px;
+    height: 26px;
+  }
+  .publishdate {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .desc {
+    font-size: 14px;
+  }
+  .container{
+    width: 327px;
+    height: 501px;
+  }
+  .img img{
+    width: 279px;
+  }
 }
